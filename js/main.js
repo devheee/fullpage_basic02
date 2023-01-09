@@ -13,6 +13,11 @@ $(function () {
                 $('nav').removeClass('on')
             }
 
+            if (idx == 1) {
+                $('.totop').fadeOut();
+            } else {
+                $('.totop').fadeIn();
+            }
             // if (idx == 4) {
             //     // $('nav li').eq(1).find('a').addClass('on');
             //     $('nav').addClass('on')

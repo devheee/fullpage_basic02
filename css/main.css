@@ -92,7 +92,7 @@ h1 {
 }
 
 .mainVisual .main_slide .slick-dots li.slick-active button {
-    background: tan;
+    background: #f1f1f1;
 }
 
 .mainVisual .bottom .link {
@@ -292,4 +292,6 @@ nav li.on a::after {
     position: fixed;
     bottom: 50px;
     right: 50px;
+
+    display: none;
 }
